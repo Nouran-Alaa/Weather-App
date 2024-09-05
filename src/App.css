@@ -1,0 +1,67 @@
+body{
+  background-image: url("../gradient-sky-nature-overlay-cloudy-weather-powerpoint-background_81edb67a06__960_540.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.nav-link.disabled, .nav-link:disabled{
+  color: black;
+}
+.carousel-indicators{
+  top: 101%;
+}
+#days-after{
+  top: 80%;
+  bottom: 5%;
+  left: 2%;
+  right: 2%;
+  background-color: #f8f9faea;
+  /* width: 95%; */
+  /* margin: auto; */
+}
+#close-open{
+  top: 5%;
+  right: 2%;
+}
+.darkblue{
+  color: #0075cb;
+}
+.column{
+  width: 25%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #0075cb;
+  /* display: inline; */
+}
+/* footer{
+  top: 110%;
+  background-color: black;
+  margin: 0%;
+  padding-top: 50px;
+  z-index: -1;
+} */
+.input-group{
+  width: 50%;
+}
+#details{
+  width: 98%;
+}
+#current-city{
+  width: 90%;
+}
+@media screen and (min-width: 1024px){
+  .input-group{
+      width: 25%;
+  }
+  #days-after{
+      left: 5%;
+      right: 5%;
+  }
+  #details{
+      width: 50%;
+
+  }
+  #current-city{
+      width: 50%;
+  }
+}
